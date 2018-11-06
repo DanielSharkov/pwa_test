@@ -54,5 +54,5 @@ li
 	margin: 0 10px
 
 a
-	color: #ff0055
+	color: #03f
 </style>

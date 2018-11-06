@@ -1,7 +1,12 @@
 <template>
-	<div class="home">
-		<img alt="Vue logo" src="../assets/logo.png">
-		<HelloWorld msg="Welcome to Your Vue.js App"/>
+	<div id="home-view">
+		<img
+			role="img"
+			alt="Vue App logo"
+			src="../assets/logo.png"
+			style="filter: hue-rotate(100deg) contrast(1.5)"
+		/>
+		<HelloWorld ref="test" msg="Welcome to this Vue.js App"/>
 	</div>
 </template>
 

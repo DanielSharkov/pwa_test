@@ -8,11 +8,11 @@ module.exports = {
 		hot: false,
 	},
 	pwa: {
-		name: 'Test PWA',
-		themeColor: '#ff0055',
-		msTitleColor: '#ff0055',
+		name: 'Progressive Web App Test',
+		themeColor: '#03f',
+		msTitleColor: '#03f',
 		appleMobileWebAppCapable: 'yes',
-		appleMobileWebAppStatusBarStyle: '#ff0055',
+		appleMobileWebAppStatusBarStyle: '#03f',
 	},
 	baseUrl: process.env.NODE_ENV === 'production' ? '/pwa_test/' : '/',
 }
